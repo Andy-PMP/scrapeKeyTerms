@@ -48,7 +48,6 @@ This installs the HTML parser the script needs. You only need to do this once. �
 ## 🚀 How to Use
 
 ### Step 1: Save Course HTML from Quantic
-
 1. Go to your Quantic course page in your browser
 2. **Right-click** anywhere on the page
 3. Select **"Save as..."**
@@ -56,19 +55,21 @@ This installs the HTML parser the script needs. You only need to do this once. �
 5. Save as **Webpage, Complete (*.htm, *.html)** (not "Webpage, HTML Only" or "Webpage, Single File")
    - For example: `YourCourseName.html`
    - ⚠️ **Important**: This should save the .html/.html file AND the _files folder that accompanies it
-
+  
 ### Step 2: Run the Scraper
+⚠️ **Important**: For all Options below, the `run_scraper_windows.bat`, `scrapeKeyTerms.py`, and `YourCourseName.html` files MUST be in the **same folder**
 
-**Option A: Using the .bat file (Windows only) — Easiest for Windows users**
+**Option A: Using the .bat file (Windows only) - Drag & Drop - Easiest for Windows users**
+1. In Windows File Explorer, drag `YourCourseName.html` file onto `run_scraper_windows.bat` and drop it 
+2. A Command Prompt window opens with a response explaining how many Key Terms and how many Assigned Readings were extracted - see Output Format section below. If the Command Prompt window disappears without pausing, an error occurred - see the Troubleshooting section below. 
+3. In Windows File Explorer, you should now see `YourCourseName.txt` alongside the original `YourCourseName.html`
 
-1. Put `run_scraper_windows.bat` and `scrapeKeyTerms.py` in the **same folder**
-2. Put your HTML file in that **same folder**
-3. **Double-click** `run_scraper_windows.bat`
-4. A Command Prompt window opens
-5. Type the filename: `YourCourseName.html` and press Enter
+**Option B: Using the .bat file (Windows only) via Command Prompt**
+1. **Double-click** `run_scraper_windows.bat`
+2. A Command Prompt window opens
+3. Type the filename: `YourCourseName.html` and press Enter
 
-**Option B: Using Command Prompt / Terminal (Works on Windows, Mac, Linux)**
-
+**Option C: Using Command Prompt / Terminal (Works on Windows, Mac, Linux)**
 1. Open Command Prompt (Windows) or Terminal (Mac/Linux)
 2. Navigate to your folder:
    ```

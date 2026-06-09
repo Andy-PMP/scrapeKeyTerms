@@ -1,5 +1,5 @@
 # scrapeKeyTerms
-Extract key terms from Quantic course pages
+Extracts key terms from Quantic course pages
 
 Navigate to a Quantic course page with Key Terms, and save the page as an HTML file in the same directory as your python script.
 

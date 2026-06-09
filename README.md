@@ -3,7 +3,8 @@
 Extracts key terms from Quantic course pages
 
 **Why**  
-One cannot simply copy and paste the key terms from the Quantic course pages.    
+*One cannot simply copy and paste the key terms from the Quantic course pages.*
+
 I was inspecting element to copy them individually, and decided I didn't want to do that for 13 months.
 
 **What**  

@@ -1,14 +1,12 @@
 # scrapeKeyTerms
 
-Extracts key terms from Quantic course pages
+**What**  
+This script extracts key terms and definitions from the Quantic course pages so you don't have to.
 
 **Why**  
 *One cannot simply copy and paste the key terms from the Quantic course pages.*
 
 I was inspecting element to copy them individually, and decided I didn't want to do that for 13 months.
-
-**What**  
-This script pulls key terms and definitions from the Quantic course pages so you don't have to.
 
 **How**
 1. Navigate to a Quantic course page with Key Terms

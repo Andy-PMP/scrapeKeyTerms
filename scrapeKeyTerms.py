@@ -38,22 +38,6 @@ def extract_terms(html_file):
 
         terms.append((term, definition))
 
-        # Diagnostic output for first few entries
-        if index < 5:
-            print("=" * 80)
-            print("TERM RAW:")
-            print(repr(term_span.get_text()))
-
-            print("\nDEFINITION RAW:")
-            print(repr(definition_span.get_text()))
-
-            print("\nTERM CLEAN:")
-            print(repr(term))
-
-            print("\nDEFINITION CLEAN:")
-            print(repr(definition))
-            print("=" * 80)
-
     return terms
 
 

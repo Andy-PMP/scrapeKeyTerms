@@ -53,9 +53,9 @@ This installs the HTML parser the script needs. You only need to do this once. �
 2. **Right-click** anywhere on the page
 3. Select **"Save as..."**
 4. Choose a folder where you want to organize your course materials
-5. Save as **HTML file** (not "Web page, complete")
+5. Save as **Webpage, Complete (*.htm, *.html)** (not "Webpage, HTML Only" or "Webpage, Single File")
    - For example: `YourCourseName.html`
-   - ⚠️ **Important**: Only save the `.html` file, not the `_files` folder that appears
+   - ⚠️ **Important**: This should save the .html/.html file AND the _files folder that accompanies it
 
 ### Step 2: Run the Scraper
 

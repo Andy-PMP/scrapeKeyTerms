@@ -2,7 +2,7 @@
 
 Extracts key terms from Quantic course pages
 
-**What**
+**What**  
 This script pulls key terms and definitions from the Quantic course pages so you don't have to.
 
 **How**
@@ -13,6 +13,6 @@ This script pulls key terms and definitions from the Quantic course pages so you
   
 The script will create a .txt file of the same name as your HTML, with the key terms and definitions extracted cleanly.
 
-**Packages needed**
-pathlib
-beautifulsoup4
+**Packages needed**    
+pathlib    
+beautifulsoup4    
